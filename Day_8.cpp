@@ -2,19 +2,17 @@
 using namespace std;
 
 string rev(string &str){
-
-    reverse(str.begin(),str.end());
     
     int n = str.length();
     string ans = "";
     string final = "";
 
-    for(int i=0;i<n;i++){
+    for(int i=n;i>=0;i--){
         string word = "";
 
-        while(i<n &&str[i] != ' '){
+        while(i>=0 &&str[i] != ' '){
             word += str[i];
-            i++;
+            i--;
         }
         if(word.length() > 0){
             reverse(word.begin(),word.end());
