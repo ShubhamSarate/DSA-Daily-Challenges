@@ -1,6 +1,10 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+/* Armstrong Number = 1*1*1 + 5*5*5 + 3*3*3 = 153
+                      9*9*9*9 + 4*4*4*4 + 7*7*7*7 + 4*4*4*4 = 9474
+                          */
+
 bool ArmStrong(int n){
 
     int original = n;
