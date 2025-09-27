@@ -1,6 +1,8 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+// ........... Best Time to Buy & Sell Stock .............. //
+
 int Stock(vector<int> &vec,int &n){
 
     int Buy = vec[0];
